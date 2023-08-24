@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    position: relative;
+    margin: 0px;
+    padding: 20px;
+    left: 60px;
+    font-size: 15px;
+    font-weight: 480px;
+    font-family: 'Caprasimo', cursive;
+    color: #89C5CC;    ;
+}
+
+nav {
+    padding: 10px;
+    text-align: right;
+    margin-left: auto;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    left: -100px;
+    margin: 1px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: left;
+    position: relative;
+    left: 60px;
+    top: 50px;
+}
+
+.text-start {
+    text-align: left;
+    position: relative;
+    left: 60px;
+    top: 10px;
+}
+
+.two-column-layout {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.column img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    position: relative;
+    top: 20px;
+    left: 60px; 
+    width: 150px;
+    height: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-color: #69B99D;
+}
+
+button img {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 3px;
+}
+
+footer {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+@media (min-width:320px) and (max-width:767px){    
+    header {
+        display: block;
+}
+    
+    h1 {
+        left: 0;
+        font-size: 24px;
+        text-align: center;
+        padding: 10px;
+}
+    
+    nav {
+        text-align: center;
+        margin: 10px auto;
+}
+    
+    nav a {
+        display: block;
+        margin: 5px;
+        font-size: 12px;
+}
+    
+    h2 {
+        font-size: 32px;
+        text-align: center;
+        left: 0;
+        top: 20px;
+}
+    
+    .text-start {
+        text-align: left;
+        left: 0;
+        top: 10px;
+        font-size: 12px;
+}
+    
+    .two-column-layout {
+        flex-direction: column;
+        align-items: center;
+}
+    
+    .column {
+           padding: 20px;
+}
+    
+    button {
+        margin: 20px auto;
+}
+    
+        footer {
+            padding: 10px;
+            margin: 10px;
+        }
+    }
+
